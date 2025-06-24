@@ -1,0 +1,50 @@
+.afegir-entrenament-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.afegir-entrenament-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.afegir-entrenament-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.afegir-entrenament-container label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #333;
+}
+
+.afegir-entrenament-container input,
+.afegir-entrenament-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.afegir-entrenament-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.afegir-entrenament-container button:hover {
+    background-color: #45a049;
+}

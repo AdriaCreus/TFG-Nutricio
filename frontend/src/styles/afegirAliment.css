@@ -1,0 +1,49 @@
+.afegir-aliment-container {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 500px;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.afegir-aliment-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.afegir-aliment-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.afegir-aliment-container label {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.afegir-aliment-container select,
+.afegir-aliment-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.afegir-aliment-container button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.afegir-aliment-container button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+.inici-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.inici-logo {
+    height: 50px;
+}
+
+.nav-buttons button {
+    margin-left: 12px;
+    padding: 10px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons button:hover {
+    background-color: #45a049;
+}
+
+.inici-content {
+    padding: 120px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.resum-container {
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    background-image: url('../assets/LOGO.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100px;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resum-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #4CAF50;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.bar {
+    width: 100%;
+    height: 14px;
+    background-color: #eee;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0;
+    transition: width 0.5s;
+}

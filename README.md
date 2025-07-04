@@ -61,18 +61,18 @@ Abans de començar, assegura’t de tenir:
 ## 🔙 Backend – Spring Boot
 
 ### 📁 1. Accedeix a la carpeta del backend
-cd backend
-mvn clean install
-mvn spring-boot:run
+- cd backend
+- mvn clean install
+- mvn spring-boot:run
 
 ### 📁 2. Assegurar-se del fitxer properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/nutricio_db
-spring.datasource.username=postgres
-spring.datasource.password=la_teva_contrasenya
+- spring.datasource.url=jdbc:postgresql://localhost:5432/nutricio_db
+- spring.datasource.username=postgres
+- spring.datasource.password=la_teva_contrasenya
 
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
 
 
 
